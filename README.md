@@ -25,29 +25,28 @@ A Python project with a Tkinter-based GUI connected to a MySQL database. The sys
 - Python 3.x  
 - MySQL server  
 - Install dependencies:  
-  ```bash
-  pip install pymysql
+    pip install pymysql
 
 ## ⚙️ Installation
-git clone https://github.com/Samar-ElSyyaad/Airlines-Management-System.git
-cd Airlines-Management-System
+    git clone https://github.com/Samar-ElSyyaad/Airlines-Management-System.git
+    cd Airlines-Management-System
 
-Set up the database:
-mysql -u root -p db < db.sql
+    # Set up the database
+    mysql -u root -p db < db.sql
 
-Run the program:
-python airline.py
+    # Run the program
+    python airline.py
 
 ## 📂 File Structure
-Airlines-Management-System/
-│
-├── airline.py   # Main Python file (GUI + logic)
-├── db.sql       # SQL file to create and populate the database
-└── README.md    # Project documentation
+    Airlines-Management-System/
+    │
+    ├── airline.py   # Main Python file (GUI + logic)
+    ├── db.sql       # SQL file to create and populate the database
+    └── README.md    # Project documentation
 
 ## 🤝 Contribution
-Feel free to fork this repository and improve the system.
+Feel free to fork this repository and improve the system.  
 Pull requests are welcome!
 
-##📜 License
+## 📜 License
 This project is open-source and available under the MIT License
